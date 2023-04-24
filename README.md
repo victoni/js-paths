@@ -1,5 +1,5 @@
 # js-paths
-Relative URL paths assembled from over 1 million javascript files from bug bounty targets. Parsed using [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder) and [gau](https://github.com/lc/gau) for unlinked js files.
+Relative URL paths assembled from over 1 million javascript files from bug bounty targets. File discovery using [hakrawler](https://github.com/hakluke/hakrawler) (and [gau](https://github.com/lc/gau) for unlinked js files) and parsed using [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder).
 
 The files are divided in api and sensitive info-related paths. For api:
 
