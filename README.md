@@ -5,7 +5,7 @@ The files are divided in api and sensitive info-related paths. For api:
 
 `grep -iE api >> api.txt`
 
-Use in URL like `https://example.com/api/[wordlist entry]`
+Intended to be used in URLs like `https://example.com/api/[wordlist entry]`. Of course, this can change and one can modify the entries as they please with the appropriate `sed`, `grep` etc. skills
 
 For sensitive info:
 
