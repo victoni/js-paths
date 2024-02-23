@@ -1,12 +1,6 @@
 # js-paths
-Relative URL paths assembled from over 1 million javascript files from bug bounty targets. File discovery using [hakrawler](https://github.com/hakluke/hakrawler) (and [gau](https://github.com/lc/gau) for unlinked js files) and parsed using [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder).
+Web application endpoints assembled from over 1 million JavaScript files from bug bounty targets. File discovery using [hakrawler](https://github.com/hakluke/hakrawler) (and [gau](https://github.com/lc/gau) for unlinked js files) and parsed using [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder).
 
-The files are divided in api and sensitive info-related paths. For api:
+The files are divided into API and sensitive info-related paths.
 
-`grep -iE api >> api.txt`
-
-Intended to be used in URLs like `https://example.com/api/[wordlist entry]`. Of course, this can change and one can modify the entries as they please with the appropriate `sed`, `grep` etc. skills
-
-For sensitive info:
-
-`grep -iE "admin|panel|secret|password|dashboard|logs|chat|debug|auth|config|dev|prod|beta|test|backup" >> js-sensitive.txt`
+For the API, it is intended to be used in URLs like `https://example.com/api/[wordlist entry]`.
